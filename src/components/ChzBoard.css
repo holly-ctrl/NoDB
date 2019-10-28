@@ -1,0 +1,25 @@
+.container {
+    display: inline-flex;
+    border: solid;
+    margin: 10px;
+}
+.container img {
+    width: 100px;
+    height: auto;
+}
+
+.CheeseBoard .title {
+    font-size: 75px;
+    font-family: 'Cormorant Garamond', serif;
+}
+
+.container .rmButton {
+    background-color: lightskyblue;
+    width: 60px;
+    height: 30px;
+    border-radius: 1rem;
+}
+
+.container h2 {
+    font-family: 'Cormorant Garamond', serif;
+}

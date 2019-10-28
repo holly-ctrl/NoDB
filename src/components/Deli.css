@@ -1,0 +1,35 @@
+h1 {
+    display: flex;
+    font-family: 'Advent Pro', sans-serif;
+}
+
+
+
+h3 {
+    display: flex;
+    justify-content: flex-start;
+    font-family: 'Advent Pro', sans-serif;
+}
+
+li {
+    display: flex;
+    justify-content: flex-start;
+    font-family: 'Advent Pro', sans-serif;
+    list-style: none;
+
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.deliItems .button {
+    background-color: lightskyblue;
+    width: 60px;
+    height: 30px;
+    margin-left: 10px;
+    border-radius: 1rem;
+}
