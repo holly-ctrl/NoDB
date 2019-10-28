@@ -73,8 +73,9 @@ export default class ChzBoard extends Component {
             <div class='CheeseBoard'>
                 <div class='title'>{this.state.displayName}</div>
                 <input onChange={(event) => this.occasionHandler(event)} value={this.state.occasionName}placeholder='Name the Occasion'></input>
+                
                 <div class='occasionButton'
-                    onClick={() => this.occasionName()}>edit
+                    onClick={() => this.occasionName()}>Edit
                 </div>
                 {this.state.cheeseAdded.map((el, index) => {
                     return (
@@ -82,7 +83,8 @@ export default class ChzBoard extends Component {
                             <h2>{el.name}</h2>
                             <img src={el.img} alt={el.name} />
                             <div class='rmButton' onClick={() => this.deleteChz(index)}>Remove</div>
-                        </div>
+                            
+            </div>
                     )
                 })}
                 <Deli addchzfn={this.addChz}/>

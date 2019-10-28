@@ -1,6 +1,7 @@
 h1 {
     display: flex;
-    font-family: 'Advent Pro', sans-serif;
+    font-family: 'Nanum Gothic Coding', monospace;
+    justify-content: center;
 }
 
 
@@ -8,13 +9,13 @@ h1 {
 h3 {
     display: flex;
     justify-content: flex-start;
-    font-family: 'Advent Pro', sans-serif;
+    font-family: 'Nanum Gothic Coding', monospace;
 }
 
 li {
     display: flex;
     justify-content: flex-start;
-    font-family: 'Advent Pro', sans-serif;
+    font-family: 'Nanum Gothic Coding', monospace;
     list-style: none;
 
 }
@@ -32,4 +33,14 @@ ul {
     height: 30px;
     margin-left: 10px;
     border-radius: 1rem;
+}
+
+
+.deliItems {
+    border-radius: 1rem;
+    border: solid;
+    display: inline-flex;
+    border-width: thin;
+    box-shadow: 10px 10px 5px grey;
+    margin: 5px;
 }

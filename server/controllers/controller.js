@@ -21,7 +21,7 @@ module.exports = {
     },
     removeChz: (req, res) => {
         const {id} = req.params
-        const index = cheeseBoard.cheeses.findIndex(el => el.id === +id)
+        const index = cheeseBoard.cheeses.findIndex(el =>   el.id === +id)
         cheeseBoard.cheeses.splice(index, 1)
         res.status(200).send(cheeseBoard)
     }, 
